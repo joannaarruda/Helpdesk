@@ -1,0 +1,17 @@
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Infra.Data.dll.config
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Infra.Data.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Infra.Data.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\EntityFramework.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Domain.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Domain.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\EntityFramework.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.csprojAssemblyReference.cache
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.csproj.CoreCompileInputs.cache
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.csproj.CopyComplete
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.pdb

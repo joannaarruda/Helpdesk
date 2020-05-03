@@ -1,0 +1,9 @@
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\HelpdeskNeoh.Application.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\HelpdeskNeoh.Application.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\Microsoft.Analytics.Interfaces.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\Microsoft.Analytics.Interfaces.Streaming.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\Microsoft.Analytics.Types.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.csproj.CoreCompileInputs.cache
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.csproj.CopyComplete
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.pdb
