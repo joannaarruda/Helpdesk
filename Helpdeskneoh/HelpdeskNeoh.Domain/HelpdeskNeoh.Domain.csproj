@@ -34,7 +34,15 @@
   <ItemGroup>
     <Compile Include="Entities\Desenvolvedor.cs" />
     <Compile Include="Entities\Hospital.cs" />
+    <Compile Include="Entities\PedidoSuporte.cs" />
+    <Compile Include="Entities\Usuario.cs" />
+    <Compile Include="Enums\Gravidade.cs" />
+    <Compile Include="Enums\StatusPedido.cs" />
+    <Compile Include="Enums\Tendencia.cs" />
+    <Compile Include="Enums\TipoChamado.cs" />
     <Compile Include="Enums\TipoSistema.cs" />
+    <Compile Include="Enums\TipoUsuario.cs" />
+    <Compile Include="Enums\Urgencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
