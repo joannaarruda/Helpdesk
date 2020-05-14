@@ -1,5 +1,7 @@
 ﻿using HelpdeskNeoh.Domain.Enums;
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Dynamic;
 
 namespace HelpdeskNeoh.Domain.Entities
@@ -15,6 +17,9 @@ namespace HelpdeskNeoh.Domain.Entities
         public DateTime DataCadastro { get; set; }
 
         public TipoSistema tipoSistema { get;}
+
+        public virtual IEnumerable <Usuario> Usuarios { get; set; }
+        public virtual IEnumerable <PedidoSuporte >PedidoSuportes { get; set; }
 
     }
 }

@@ -37,6 +37,7 @@
     <Compile Include="Entities\PedidoSuporte.cs" />
     <Compile Include="Entities\Usuario.cs" />
     <Compile Include="Enums\Gravidade.cs" />
+    <Compile Include="Enums\PerfilUsuario.cs" />
     <Compile Include="Enums\StatusPedido.cs" />
     <Compile Include="Enums\Tendencia.cs" />
     <Compile Include="Enums\TipoChamado.cs" />
