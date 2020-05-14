@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelpdeskNeoh.Domain.Enums
 {
-    public enum Urgencia
+    public enum TipoUrgencia
     {
         ACAO_IMEDIATA = 5,
         URGENTE = 4,

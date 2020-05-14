@@ -56,6 +56,7 @@
     <Compile Include="Contexto\HelpdeskNeohContext.cs" />
     <Compile Include="EntityConfig\DesenvolvedorConfiguration.cs" />
     <Compile Include="EntityConfig\HospitalConfiguration.cs" />
+    <Compile Include="EntityConfig\PedidoSuporteConfiguration.cs" />
     <Compile Include="EntityConfig\UsuarioConfiguration.cs" />
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

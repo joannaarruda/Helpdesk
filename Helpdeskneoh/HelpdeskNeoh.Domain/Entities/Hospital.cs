@@ -16,7 +16,10 @@ namespace HelpdeskNeoh.Domain.Entities
         public bool SnAtivo { get; set; }
         public DateTime DataCadastro { get; set; }
 
-        public TipoSistema tipoSistema { get;}
+        public TipoSistema TipoSistema { get; set; }
+
+        public int PedidoSuporte { get; set; }
+        
 
         public virtual IEnumerable <Usuario> Usuarios { get; set; }
         public virtual IEnumerable <PedidoSuporte >PedidoSuportes { get; set; }

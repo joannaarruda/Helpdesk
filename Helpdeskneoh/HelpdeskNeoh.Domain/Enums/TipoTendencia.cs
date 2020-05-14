@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace HelpdeskNeoh.Domain.Enums
 {
-    public enum Tendencia
+    public enum TipoTendencia
     {
 
         PIORAR_RAPIDAMENTE = 5,

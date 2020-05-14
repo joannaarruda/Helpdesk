@@ -1,7 +1,7 @@
 ﻿
 namespace HelpdeskNeoh.Domain.Enums
 {
-    public enum Gravidade
+    public enum TipoGravidade
     {
         EXTREMAMENTE_GRAVE = 5,
         MUITO_GRAVE =4,

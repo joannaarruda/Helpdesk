@@ -32,18 +32,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Entities\AtenderPedido.cs" />
     <Compile Include="Entities\Desenvolvedor.cs" />
     <Compile Include="Entities\Hospital.cs" />
     <Compile Include="Entities\PedidoSuporte.cs" />
     <Compile Include="Entities\Usuario.cs" />
-    <Compile Include="Enums\Gravidade.cs" />
+    <Compile Include="Enums\TipoGravidade.cs" />
     <Compile Include="Enums\PerfilUsuario.cs" />
     <Compile Include="Enums\StatusPedido.cs" />
-    <Compile Include="Enums\Tendencia.cs" />
+    <Compile Include="Enums\TipoTendencia.cs" />
     <Compile Include="Enums\TipoChamado.cs" />
     <Compile Include="Enums\TipoSistema.cs" />
     <Compile Include="Enums\TipoUsuario.cs" />
-    <Compile Include="Enums\Urgencia.cs" />
+    <Compile Include="Enums\TipoUrgencia.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

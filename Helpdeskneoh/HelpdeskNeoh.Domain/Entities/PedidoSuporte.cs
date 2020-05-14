@@ -12,12 +12,12 @@ namespace HelpdeskNeoh.Domain.Entities
     {
         public int PedidoSuporteId { get; set; }
         public DateTime DataPedido { get; set; }
-        public TipoChamado tipoChamado { get; }
-        public Urgencia urgencia { get; }
-        public PerfilUsuario perfilUsuario { get; }
+        public TipoChamado TipoChamado { get; set; }
+        public TipoUrgencia TipoUrgencia { get; set; }
+        public PerfilUsuario PerfilUsuario { get; set; }
         public string TituloPedido { get; set; }
         public string ObservacaoPedido { get; set; }
-        public StatusPedido statusPedido { get; }
+        public StatusPedido StatusPedido { get; set; }
         public DateTime DataEncerramento { get; set; }
         public int UsuarioId { get; set; }
         public virtual Usuario Usuario { get; set; }
