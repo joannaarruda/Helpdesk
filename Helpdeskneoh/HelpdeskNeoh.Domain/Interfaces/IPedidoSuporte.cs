@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HelpdeskNeoh.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,13 +7,8 @@ using System.Threading.Tasks;
 
 namespace HelpdeskNeoh.Domain.Interfaces
 {
-    public interface IPedidoSuporte<TPedidoSuporte> where TPedidoSuporte : class
+    public interface IPedidoSuporte<TPedidoSuporte> : IRepositoryBase<PedidoSuporte>
     {
-        void Add(TPedidoSuporte obj);
-        TPedidoSuporte GetById(int id);
-        IEnumerable<TPedidoSuporte> GetAll();
-        void Update(TPedidoSuporte obj);
-
-
+     
     }
 }
