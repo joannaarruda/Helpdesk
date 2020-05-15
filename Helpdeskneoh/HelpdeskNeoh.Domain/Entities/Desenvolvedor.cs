@@ -1,6 +1,7 @@
 ﻿
 
 using System;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 namespace HelpdeskNeoh.Domain.Entities
@@ -15,6 +16,9 @@ namespace HelpdeskNeoh.Domain.Entities
     public string EmailDesenvolvedor { get; set; }
     public DateTime DataCadastro { get; set; }
     public bool SnAtivoDev { get; set; }
+
+    public int AtenderPedidoId { get; set; }
+    public virtual IEnumerable<AtenderPedido> AtenderPedido { get; set; }
 
 
     }

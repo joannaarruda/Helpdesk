@@ -8,7 +8,7 @@ namespace HelpdeskNeoh.Domain.Entities
    public class AtenderPedido
     {
         public int AtenderPedidoId { get; set; }
-        public DateTime DataAbertura { get;set }
+        public DateTime DataAbertura { get; set; }
         public DateTime DataFechamento { get; set;}
         public TipoGravidade TipoGravidade { get; set; }
         public TipoTendencia TipoTendencia { get; set; }

@@ -32,9 +32,7 @@ namespace HelpdeskNeoh.Infra.Data.EntityConfig
                 .IsRequired()
                 .HasMaxLength(11);
 
-            HasRequired(p => p.Hospital)
-                .WithMany()
-                .HasForeignKey(p => p.HospitalId);
+         
 
         }
 

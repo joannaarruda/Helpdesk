@@ -18,7 +18,7 @@ namespace HelpdeskNeoh.Domain.Entities
         public string SenhaUsuario { get; set; }
 
         public int HospitalId {get;set;}
-        
+         
 
 
         public virtual IEnumerable<Hospital> Hospitais { get; set; }

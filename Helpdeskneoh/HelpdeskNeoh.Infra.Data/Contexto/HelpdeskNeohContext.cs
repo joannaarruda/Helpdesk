@@ -20,6 +20,9 @@ namespace HelpdeskNeoh.Infra.Data.Contexto
         }
         public DbSet<Desenvolvedor> Desenvolvedores { get; set; }
         public DbSet <Hospital> Hospitais { get; set; }
+        public DbSet <Usuario> Usuarios { get; set; }
+        public DbSet<PedidoSuporte> PedidoSuportes { get; set; }
+        public DbSet <AtenderPedido> AtenderPedidos { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
@@ -38,6 +41,11 @@ namespace HelpdeskNeoh.Infra.Data.Contexto
                 .Configure(p => p.HasMaxLength(100));
 
             modelBuilder.Configurations.Add(new DesenvolvedorConfiguration());
+            modelBuilder.Configurations.Add(new HospitalConfiguration());
+            modelBuilder.Configurations.Add(new UsuarioConfiguration());
+            modelBuilder.Configurations.Add(new PedidoSuporteConfiguration());
+            modelBuilder.Configurations.Add(new AtenderPedidoConfiguration());
+
 
         }
 
