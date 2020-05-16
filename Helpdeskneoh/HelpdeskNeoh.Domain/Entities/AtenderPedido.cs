@@ -13,6 +13,10 @@ namespace HelpdeskNeoh.Domain.Entities
         public TipoGravidade TipoGravidade { get; set; }
         public TipoTendencia TipoTendencia { get; set; }
         public TipoUrgencia TipoUrgencia { get; set; }
+
+        public string ComentarioDev { get; set; }
+
+        public int ResGut { get; set; }
         public Usuario Usuario { get; set; }      
         
         public int DesenvolvedorId { get; set; }

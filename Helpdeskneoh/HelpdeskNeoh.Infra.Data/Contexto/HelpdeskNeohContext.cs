@@ -65,6 +65,23 @@ namespace HelpdeskNeoh.Infra.Data.Contexto
                 }
 
             }
+
+            foreach (var entry in ChangeTracker.Entries().Where(Entry => Entry.Entity.GetType().GetProperty("DataAbertura") is null))
+            {
+                if (entry.State == EntityState.Added)
+                {
+                    entry.Property("DataAbertura").CurrentValue = DateTime.Now;
+
+                }
+
+                if (entry.State == EntityState.Modified)
+                {
+                    entry.Property("DataAbertura").IsModified = false;
+                }
+
+            }
+
+
             return base.SaveChanges();
 
         }

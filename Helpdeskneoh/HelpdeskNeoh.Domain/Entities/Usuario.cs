@@ -6,14 +6,14 @@ namespace HelpdeskNeoh.Domain.Entities
 {
     public class Usuario
     {
-        public object Hospital;
+      //  public object Hospital;
 
         public int UsuarioId { get; set; }
         public string CpfUsuario { get; set; }
         public string NmUsuario { get; set; }
         public string EmailUsuario { get; set; }
         public string CelularUsuario { get; set; }
-        public TipoUsuario tipoUsuario { get; }
+        public TipoUsuario tipoUsuario { get; set; }
         public DateTime DataCadastro { get; set; }
         public string SenhaUsuario { get; set; }
 
