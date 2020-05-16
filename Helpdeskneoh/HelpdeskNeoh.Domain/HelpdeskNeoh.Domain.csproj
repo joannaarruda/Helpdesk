@@ -45,10 +45,10 @@
     <Compile Include="Enums\TipoSistema.cs" />
     <Compile Include="Enums\TipoUsuario.cs" />
     <Compile Include="Enums\TipoUrgencia.cs" />
-    <Compile Include="Interfaces\IAtenderPedido.cs" />
+    <Compile Include="Interfaces\IAtenderPedidoRespositpry.cs" />
     <Compile Include="Interfaces\IDesenvolvedorRepository.cs" />
     <Compile Include="Interfaces\IHospitalRepository.cs" />
-    <Compile Include="Interfaces\IPedidoSuporte.cs" />
+    <Compile Include="Interfaces\IPedidoSuporteRepository.cs" />
     <Compile Include="Interfaces\IRepositoryBase.cs" />
     <Compile Include="Interfaces\IUsuarioRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

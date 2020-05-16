@@ -7,8 +7,11 @@ using System.Threading.Tasks;
 
 namespace HelpdeskNeoh.Domain.Interfaces
 {
-    public interface IPedidoSuporte<TPedidoSuporte> : IRepositoryBase<PedidoSuporte>
+    public interface IPedidoSuporteRepository : IRepositoryBase<PedidoSuporte>
     {
-     
+
+        IEnumerable<PedidoSuporte> BuscarPorNome(string nome);
+
+
     }
 }
