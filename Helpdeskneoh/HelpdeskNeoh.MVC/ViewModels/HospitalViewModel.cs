@@ -20,10 +20,10 @@ namespace HelpdeskNeoh.MVC.ViewModels
         public bool SnGrupo { get; set; }
         public bool SnAtivo { get; set; }
 
-        [ScaffoldColumn(false)]
+       [ScaffoldColumn(false)]
         public DateTime DataCadastro { get; set; }
 
-        [Required(ErrorMessage = "Preencha o Tipo do Sistema")]
+       [Required(ErrorMessage = "Preencha o Tipo do Sistema")]
         public TipoSistema TipoSistema { get; set; }
 
           public int PedidoSuporte { get; set; }

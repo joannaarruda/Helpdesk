@@ -97,3 +97,4 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.xm
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.SqlServer.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Domain.dll.config
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.SqlServer.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\AutoMapper.Net4.dll

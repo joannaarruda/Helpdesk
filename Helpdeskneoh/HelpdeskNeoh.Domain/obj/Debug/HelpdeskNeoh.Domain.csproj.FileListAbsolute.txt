@@ -9,3 +9,4 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFra
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.xml
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.csproj.CopyComplete
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.csprojAssemblyReference.cache

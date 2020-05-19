@@ -22,7 +22,7 @@ namespace HelpdeskNeoh.MVC.AutoMapper
                 
 
             });
-            Mapper.AssertConfigurationIsValid();
+           
         }
 
     }

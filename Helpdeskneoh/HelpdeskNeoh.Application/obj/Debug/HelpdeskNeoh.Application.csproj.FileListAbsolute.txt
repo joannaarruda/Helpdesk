@@ -7,3 +7,9 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\Help
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.csproj.CopyComplete
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\HelpdeskNeoh.Application.dll.config
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\EntityFramework.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\EntityFramework.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Application\obj\Debug\HelpdeskNeoh.Application.csprojAssemblyReference.cache
