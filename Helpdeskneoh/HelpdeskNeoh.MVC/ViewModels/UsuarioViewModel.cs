@@ -1,12 +1,9 @@
-﻿using HelpdeskNeoh.Domain.Entities;
-using HelpdeskNeoh.Domain.Enums;
+﻿using HelpdeskNeoh.Domain.Enums;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace HelpdeskNeoh.MVC.ViewModels
 {
@@ -19,7 +16,7 @@ namespace HelpdeskNeoh.MVC.ViewModels
         public int UsuarioId { get; set; }
 
         [Required(ErrorMessage = "Preencha o seu Cpf")]
-        [MaxLength(11,ErrorMessage = "O máximo {0} permitido de caractere")]
+        [MaxLength(11, ErrorMessage = "O máximo {0} permitido de caractere")]
         public string CpfUsuario { get; set; }
         [Required(ErrorMessage = "Preencha o Nome do Usuário")]
         [MaxLength(200, ErrorMessage = "O máximo {0} permitido de caractere")]
@@ -27,7 +24,7 @@ namespace HelpdeskNeoh.MVC.ViewModels
         public string NmUsuario { get; set; }
         [Required(ErrorMessage = "Preencha o E-mail do Usuário")]
         [MaxLength(100, ErrorMessage = "O máximo {0} permitido de caractere")]
-        [EmailAddress (ErrorMessage = "Preencha um e-mail válido")]
+        [EmailAddress(ErrorMessage = "Preencha um e-mail válido")]
         [DisplayName("E-mail")]
         public string EmailUsuario { get; set; }
 
@@ -45,9 +42,9 @@ namespace HelpdeskNeoh.MVC.ViewModels
 
 
 
-       public virtual IEnumerable<HospitalViewModel> Hospitais { get; set; }
-       public virtual IEnumerable<PedidoSuporteViewModel> PedidoSuportes { get; set; }
- 
+        public virtual IEnumerable<HospitalViewModel> Hospitais { get; set; }
+        public virtual IEnumerable<PedidoSuporteViewModel> PedidoSuportes { get; set; }
+
 
 
     }

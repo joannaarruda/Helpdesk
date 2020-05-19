@@ -1,11 +1,8 @@
 ﻿using HelpdeskNeoh.Domain.Entities;
 using HelpdeskNeoh.Domain.Enums;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace HelpdeskNeoh.MVC.ViewModels
 {
@@ -14,10 +11,10 @@ namespace HelpdeskNeoh.MVC.ViewModels
         [Key]
         public int PedidoSuporteId { get; set; }
 
-        [ScaffoldColumn (false)]
+        [ScaffoldColumn(false)]
         public DateTime DataPedido { get; set; }
-        
-        [Required (ErrorMessage = "Informe o tipo de Chamado")]
+
+        [Required(ErrorMessage = "Informe o tipo de Chamado")]
         public TipoChamado TipoChamado { get; set; }
 
         [Required(ErrorMessage = "Informe o tipo de Urgência")]
@@ -37,8 +34,8 @@ namespace HelpdeskNeoh.MVC.ViewModels
 
         [ScaffoldColumn(false)]
         public DateTime DataEncerramento { get; set; }
-        
-        [ForeignKey ("UsuarioId")]
+
+        [ForeignKey("UsuarioId")]
         public int UsuarioId { get; set; }
         public virtual Usuario Usuario { get; set; }
 

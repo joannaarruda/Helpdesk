@@ -1,6 +1,11 @@
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\HelpdeskNeoh.Domain.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\HelpdeskNeoh.Domain.pdb
-C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.csprojAssemblyReference.cache
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.csproj.CoreCompileInputs.cache
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\HelpdeskNeoh.Domain.dll.config
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Domain\obj\Debug\HelpdeskNeoh.Domain.csproj.CopyComplete

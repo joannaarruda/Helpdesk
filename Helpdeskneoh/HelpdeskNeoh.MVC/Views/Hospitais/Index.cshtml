@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HelpdeskNeoh.MVC.ViewModels.HospitalViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.CnpjHospital)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.NmHospital)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SnGrupo)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SnAtivo)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.CnpjHospital)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.NmHospital)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SnGrupo)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SnAtivo)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.HospitalId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.HospitalId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.HospitalId })
+        </td>
+    </tr>
+}
+
+</table>

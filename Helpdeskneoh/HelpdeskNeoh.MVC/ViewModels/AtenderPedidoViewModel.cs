@@ -4,8 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Web;
 
 namespace HelpdeskNeoh.MVC.ViewModels
 {
@@ -40,8 +38,8 @@ namespace HelpdeskNeoh.MVC.ViewModels
         public virtual IEnumerable<Desenvolvedor> Desenvolvedor { get; set; }
         public virtual IEnumerable<PedidoSuporte> PedidoSuportes { get; set; }
 
-        public virtual PedidoSuporteViewModel PedidoSuporte {get; set;}
+        public virtual PedidoSuporteViewModel PedidoSuporte { get; set; }
 
-        
+
     }
 }

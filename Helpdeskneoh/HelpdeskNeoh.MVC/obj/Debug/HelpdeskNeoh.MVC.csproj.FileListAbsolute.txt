@@ -84,3 +84,16 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\obj\Debug\HelpdeskNeoh
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\obj\Debug\HelpdeskNeoh.MVC.csproj.CopyComplete
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\obj\Debug\HelpdeskNeoh.MVC.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\obj\Debug\HelpdeskNeoh.MVC.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\AutoMapper.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\Elmah.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Domain.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Infra.Data.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Domain.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Infra.Data.pdb
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Infra.Data.dll.config
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\AutoMapper.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.xml
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.SqlServer.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Domain.dll.config
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.SqlServer.xml

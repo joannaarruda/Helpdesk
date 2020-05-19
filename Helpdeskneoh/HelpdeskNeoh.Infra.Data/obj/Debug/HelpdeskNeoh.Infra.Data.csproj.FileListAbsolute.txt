@@ -17,3 +17,4 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\Helpd
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.pdb
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.Migrations.InitialCreate.resources
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.csproj.GenerateResource.cache
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\HelpdeskNeoh.Domain.dll.config
