@@ -20,7 +20,7 @@ namespace HelpdeskNeoh.Domain.Entities
 
         public TipoSistema TipoSistema { get; set; }
         
-        public int PedidoSuporte { get; set; }
+        //public int PedidoSuporte { get; set; }
         
 
         public virtual IEnumerable <Usuario> Usuarios { get; set; }

@@ -92,6 +92,14 @@
     <Compile Include="Migrations\202005192202386_ajustes.designer.cs">
       <DependentUpon>202005192202386_ajustes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202005212233583_hospital.cs" />
+    <Compile Include="Migrations\202005212233583_hospital.designer.cs">
+      <DependentUpon>202005212233583_hospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202005212253154_pedidosuporte.cs" />
+    <Compile Include="Migrations\202005212253154_pedidosuporte.designer.cs">
+      <DependentUpon>202005212253154_pedidosuporte.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\AtenderPedidoRespository.cs" />
@@ -121,6 +129,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202005192202386_ajustes.resx">
       <DependentUpon>202005192202386_ajustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005212233583_hospital.resx">
+      <DependentUpon>202005212233583_hospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202005212253154_pedidosuporte.resx">
+      <DependentUpon>202005212253154_pedidosuporte.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

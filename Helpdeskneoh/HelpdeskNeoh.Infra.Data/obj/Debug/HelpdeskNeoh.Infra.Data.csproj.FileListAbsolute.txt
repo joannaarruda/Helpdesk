@@ -39,3 +39,5 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\pt-br
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\pt-br\System.Web.WebPages.resources.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\pt-br\System.Web.WebPages.Deployment.resources.dll
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\bin\Debug\pt-br\System.Web.WebPages.Razor.resources.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.Migrations.hospital.resources
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.Infra.Data\obj\Debug\HelpdeskNeoh.Infra.Data.Migrations.pedidosuporte.resources

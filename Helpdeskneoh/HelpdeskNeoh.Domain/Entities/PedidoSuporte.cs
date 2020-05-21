@@ -18,7 +18,7 @@ namespace HelpdeskNeoh.Domain.Entities
         public string TituloPedido { get; set; }
         public string ObservacaoPedido { get; set; }
         public StatusPedido StatusPedido { get; set; }
-        public DateTime DataEncerramento { get; set; }
+        //public DateTime DataEncerramento { get; set; }
         public int UsuarioId { get; set; }
         public virtual Usuario Usuario { get; set; }
 
