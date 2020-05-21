@@ -19,11 +19,11 @@ namespace HelpdeskNeoh.MVC.AutoMapper
 
         {
 
-            Mapper.CreateMap<Hospital, HospitalViewModel>();
-            Mapper.CreateMap<Usuario, UsuarioViewModel>();
-            Mapper.CreateMap<Desenvolvedor, DesenvolvedorViewModel>();
-            Mapper.CreateMap<PedidoSuporte, PedidoSuporteViewModel>();
-            Mapper.CreateMap<AtenderPedido, AtenderPedidoViewModel>();
+            Mapper.CreateMap<HospitalViewModel, Hospital >();
+            Mapper.CreateMap<UsuarioViewModel, Usuario>();
+            Mapper.CreateMap<DesenvolvedorViewModel,Desenvolvedor>();
+            Mapper.CreateMap<PedidoSuporteViewModel,PedidoSuporte>();
+            Mapper.CreateMap<AtenderPedidoViewModel, AtenderPedido>();
 
         }
 

@@ -1,5 +1,6 @@
 ﻿using HelpdeskNeoh.Domain.Entities;
 using System.Data.Entity.ModelConfiguration;
+using System.Web.Mvc;
 
 namespace HelpdeskNeoh.Infra.Data.EntityConfig
 {
@@ -18,6 +19,9 @@ namespace HelpdeskNeoh.Infra.Data.EntityConfig
                 .IsRequired()
                 .HasMaxLength(100);
 
+            
+
+          
 
         }
 

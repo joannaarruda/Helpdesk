@@ -1,4 +1,6 @@
 ﻿
+using System.ComponentModel.DataAnnotations;
+
 namespace HelpdeskNeoh.Domain.Enums
 {
     public enum TipoSistema
@@ -10,6 +12,6 @@ namespace HelpdeskNeoh.Domain.Enums
         AGFA = 4,
         OUTROS = 5
 
-
+     
     }
 }

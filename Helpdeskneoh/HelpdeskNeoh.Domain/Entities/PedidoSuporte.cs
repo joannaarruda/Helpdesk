@@ -24,6 +24,8 @@ namespace HelpdeskNeoh.Domain.Entities
 
         public int HospitalId { get; set; }
         public virtual Hospital Hospital { get; set; }
+
+        public virtual IEnumerable<AtenderPedido> AtenderPedidos { get; set; }
         
 
 

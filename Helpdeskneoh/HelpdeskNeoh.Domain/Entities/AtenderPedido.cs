@@ -22,8 +22,8 @@ namespace HelpdeskNeoh.Domain.Entities
         public int DesenvolvedorId { get; set; }
         public int PedidoSuporteId { get; set; }
 
-        public virtual IEnumerable<Desenvolvedor> Desenvolvedor { get; set; }
-        public virtual IEnumerable<PedidoSuporte> PedidoSuportes { get; set; }
+        public virtual Desenvolvedor Desenvolvedor { get; set; }
+        public virtual PedidoSuporte PedidoSuporte { get; set; }
 
  
         public int GetResGut(TipoGravidade gravidade, TipoTendencia tendencia, TipoUrgencia urgencia)

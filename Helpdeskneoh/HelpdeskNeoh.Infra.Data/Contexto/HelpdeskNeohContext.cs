@@ -49,42 +49,42 @@ namespace HelpdeskNeoh.Infra.Data.Contexto
 
         }
 
-        public override int SaveChanges()
-        {
-            foreach (var entry in ChangeTracker.Entries().Where(Entry => Entry.Entity.GetType().GetProperty("DataCadastro") is null))
-            {
-                if (entry.State == EntityState.Added)
-                {
-                    entry.Property("DataCadastro").CurrentValue = DateTime.Now;
+        //public override int SaveChanges()
+        //{
+        //    foreach (var entry in ChangeTracker.Entries().Where(Entry => Entry.Entity.GetType().GetProperty("DataCadastro") is null))
+        //    {
+        //        if (entry.State == EntityState.Added)
+        //        {
+        //            entry.Property("DataCadastro").CurrentValue = DateTime.Now;
 
-                }
+        //        }
 
-                if (entry.State == EntityState.Modified)
-                {
-                    entry.Property("DataCadastro").IsModified = false;
-                }
+        //        if (entry.State == EntityState.Modified)
+        //        {
+        //            entry.Property("DataCadastro").IsModified = false;
+        //        }
 
-            }
+        //    }
 
-            foreach (var entry in ChangeTracker.Entries().Where(Entry => Entry.Entity.GetType().GetProperty("DataAbertura") is null))
-            {
-                if (entry.State == EntityState.Added)
-                {
-                    entry.Property("DataAbertura").CurrentValue = DateTime.Now;
+        //    //foreach (var entry in ChangeTracker.Entries().Where(Entry => Entry.Entity.GetType().GetProperty("DataAbertura") is null))
+        //    //{
+        //    //    if (entry.State == EntityState.Added)
+        //    //    {
+        //    //        entry.Property("DataAbertura").CurrentValue = DateTime.Now;
 
-                }
+        //    //    }
 
-                if (entry.State == EntityState.Modified)
-                {
-                    entry.Property("DataAbertura").IsModified = false;
-                }
+        //    //    if (entry.State == EntityState.Modified)
+        //    //    {
+        //    //        entry.Property("DataAbertura").IsModified = false;
+        //    //    }
 
-            }
+        //    //}
 
 
-            return base.SaveChanges();
+        //    return base.SaveChanges();
 
-        }
+        //}
 
 
 

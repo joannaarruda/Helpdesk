@@ -13,12 +13,14 @@ namespace HelpdeskNeoh.MVC.ViewModels
 
         [Required(ErrorMessage = "Preencha o Nome do Desenvolvedor")]
         [MaxLength(200, ErrorMessage = "O máximo {0} permitido de caractere")]
-        [MinLength(50, ErrorMessage = "O mínimo {0} de caractere permitido")]
+        [MinLength(5, ErrorMessage = "O mínimo {0} de caractere permitido")]
+        [DisplayName("Nome")]
         public string NmDesenvolvedor { get; set; }
 
 
         [Required(ErrorMessage = "Preencha o seu Cpf")]
         [MaxLength(11, ErrorMessage = "O máximo {0} permitido de caractere")]
+        [DisplayName("CPF")]
         public string CpfDesenvolvedor { get; set; }
 
         [Required(ErrorMessage = "Preencha o E-mail do Usuário")]
@@ -29,9 +31,11 @@ namespace HelpdeskNeoh.MVC.ViewModels
 
         [ScaffoldColumn(false)]
         public DateTime DataCadastro { get; set; }
+
+        [DisplayName("Ativo")]
         public bool SnAtivoDev { get; set; }
 
-        public virtual IEnumerable<AtenderPedidoViewModel> AtenderPedido { get; set; }
+       // public virtual IEnumerable<AtenderPedidoViewModel> AtenderPedido { get; set; }
 
 
 

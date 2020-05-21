@@ -1,0 +1,51 @@
+﻿@model IEnumerable<HelpdeskNeoh.MVC.ViewModels.DesenvolvedorViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NmDesenvolvedor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CpfDesenvolvedor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmailDesenvolvedor)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SnAtivoDev)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NmDesenvolvedor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CpfDesenvolvedor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EmailDesenvolvedor)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SnAtivoDev)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.DesenvolvedorId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DesenvolvedorId }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.DesenvolvedorId })
+        </td>
+    </tr>
+}
+
+</table>

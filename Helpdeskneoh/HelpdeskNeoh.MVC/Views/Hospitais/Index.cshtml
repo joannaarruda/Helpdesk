@@ -4,7 +4,7 @@
     ViewBag.Title = "Index";
 }
 
-<h2>Index</h2>
+<h2>Hospitais</h2>
 
 <p>
     @Html.ActionLink("Create New", "Create")
@@ -23,29 +23,38 @@
         <th>
             @Html.DisplayNameFor(model => model.SnAtivo)
         </th>
+
+        <th>
+            @Html.DisplayNameFor(model => model.TipoSistema)
+        </th>
+
         <th></th>
     </tr>
 
 @foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.CnpjHospital)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.NmHospital)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.SnGrupo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.SnAtivo)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.HospitalId }) |
-            @Html.ActionLink("Details", "Details", new { id=item.HospitalId }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.HospitalId })
-        </td>
-    </tr>
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.CnpjHospital)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.NmHospital)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SnGrupo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.SnAtivo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.TipoSistema)
+    </td>
+
+    <td>
+        @Html.ActionLink("Edit", "Edit", new { id = item.HospitalId }) |
+        @Html.ActionLink("Details", "Details", new { id = item.HospitalId }) |
+        @Html.ActionLink("Delete", "Delete", new { id = item.HospitalId })
+    </td>
+</tr>
 }
 
 </table>

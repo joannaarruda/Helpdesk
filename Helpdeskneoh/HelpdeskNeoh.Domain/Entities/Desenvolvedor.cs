@@ -17,9 +17,23 @@ namespace HelpdeskNeoh.Domain.Entities
     public DateTime DataCadastro { get; set; }
     public bool SnAtivoDev { get; set; }
 
-    public int AtenderPedidoId { get; set; }
-    public virtual IEnumerable<AtenderPedido> AtenderPedido { get; set; }
+   // public int AtenderPedidoId { get; set; }
+    //public virtual IEnumerable<AtenderPedido> AtenderPedido { get; set; }
 
+        //public Desenvolvedor( string nmDesenvolvedor, string cpfDesenvolvedor, string emailDesenvolvedor)
+        //{
 
+        //    NmDesenvolvedor = nmDesenvolvedor;
+        //    CpfDesenvolvedor = cpfDesenvolvedor;
+        //    EmailDesenvolvedor = emailDesenvolvedor;
+        //    DataCadastro = DateTime.Now;
+        //    SnAtivoDev = true;
+
+        //}
+
+        public Desenvolvedor()
+        {
+
+        }
     }
 }

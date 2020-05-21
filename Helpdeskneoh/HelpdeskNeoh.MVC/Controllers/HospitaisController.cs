@@ -2,6 +2,7 @@
 using HelpdeskNeoh.Domain.Entities;
 using HelpdeskNeoh.Infra.Data.Repositories;
 using HelpdeskNeoh.MVC.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
 
@@ -41,6 +42,8 @@ namespace HelpdeskNeoh.MVC.Controllers
             if (ModelState.IsValid)
             {
                 var hospitalDomain = Mapper.Map<HospitalViewModel, Hospital>(hospital);
+                hospitalDomain.DataCadastro = DateTime.Now;
+                
                 _hospitalRepository.Add(hospitalDomain);
                 return RedirectToAction("Index");
             }

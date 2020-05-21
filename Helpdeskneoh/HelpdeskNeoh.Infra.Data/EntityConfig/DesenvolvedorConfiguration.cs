@@ -21,6 +21,8 @@ namespace HelpdeskNeoh.Infra.Data.EntityConfig
                 .IsRequired()
                 .HasMaxLength(11);
 
+          
+
         }
 
     }

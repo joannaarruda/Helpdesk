@@ -98,3 +98,6 @@ C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.Sq
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\HelpdeskNeoh.Domain.dll.config
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\EntityFramework.SqlServer.xml
 C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\AutoMapper.Net4.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\itextsharp.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\itextsharp.xmlworker.dll
+C:\Users\joann\source\repos\Helpdeskneoh\HelpdeskNeoh.MVC\bin\itextsharp.xml
